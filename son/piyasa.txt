@@ -1,190 +1,154 @@
 Son 1.5 saat taraniyor...
-403 satis, 1330 listeleme olayi bulundu.
+186 satis, 975 listeleme olayi bulundu.
 Islemler zincirden okunuyor (birkac dakika surebilir)...
 
 === GENEL ===
-Incelenen satis: 403 | dogrudan listeleme alimi: 368 | teklif kabulu/diger: 35
-Farkli alici: 34 | toplu (birden cok NFT) islem: 305
-Listelemeden satisa gecen sure (sn): medyan 318, %25'i 88 sn'den hizli, en hizli 1
+Incelenen satis: 186 | dogrudan listeleme alimi: 147 | teklif kabulu/diger: 39
+Farkli alici: 26 | toplu (birden cok NFT) islem: 101
+Listelemeden satisa gecen sure (sn): medyan 283, %25'i 51 sn'den hizli, en hizli -2
 
 === RATING ARALIGINA GORE TIP (dogrudan alimlar) ===
 aralik          adet   medyan tip   %90 tip   en yuksek   medyan sira   medyan listelemeden sn
-0-650          265         0.6        0.8        55.0         92.0        415.0
-650-700           38         0.6       24.5        62.8        120.5        113.0
-700-750           35         0.8        0.8        52.0        234.0        184.0
-750-770           13         0.1        0.8        19.3        197.0        118.5
-770-790           14         0.6        0.8         2.0        144.5       1968.0
-790-1000           3         0.8        0.8         0.8        238.0       5164.0
+0-650          130         0.6        1.0        41.2         39.0        285.0
+650-700            3         0.4        0.6         0.6         98.0       2144.0
+700-750            6         1.3       31.4        31.4         67.0        127.0
+750-770            5         6.8       55.0        55.0         15.0         10.0
+770-790            1         1.0        1.0         1.0        146.0            -
+790-1000           2         1.0        1.0         1.0        135.0       2180.0
 
 === EN AKTIF ALICILAR (>=3 alim) ===
 alici        adet  ort.rating  medyan tip  en yuksek  medyan sira  medyan sn   toplu  not
-0x77ed0a36..   160      613.6         0.7        0.8         92.0    5374.5    160  
-0x22a676b5..    70      601.9         0.0        0.0        244.0     326.0     69  
-0xb0e379de..    31      168.3         0.6        0.6         25.0     891.0     31  
-0x483aeb08..    26      626.1         0.1        0.1        128.5     181.0     25  
-0x005d4b2c..    10      611.4         1.5        6.0         22.0       5.5      0  
-0x753cf572..    10      151.9         0.0        0.0        212.0     255.0     10  
-0x064635e9..     7      665.8         0.6        2.0         69.0     121.0      2  
-0xb937e9e0..     7      140.7         0.7        0.9        134.0     479.0      0  
-0xb4026677..     5      614.6         0.6        0.6         98.0         -      4  
-0x3ff1d944..     5      279.0         0.0        0.0        392.0    5304.0      2  
-0x658103b8..     4      174.7         0.9        0.9        191.5    9513.0      0  
-0x03a10b48..     3      671.6        24.5       50.1          2.0       4.0      0  
-0xacd6ff0d..     3      579.7        19.0       62.8          6.0       6.0      0  
-0x982a3e21..     3      636.9        43.1       55.0          8.0      10.0      0  
-0xac0b17cb..     3      475.8        13.8       14.7          9.0       7.0      0  
+0xb0e379de..    68      180.3         0.6        0.6         39.0     672.0     68  
+0x46e0d636..    15      183.8         0.1        0.1         71.0    5306.5     15  
+0xac0b17cb..     9      565.1         8.6       31.4         16.0       6.0      0  
+0x064635e9..     9      517.5         0.6        0.6        239.0     247.0      5  
+0x753cf572..     5      203.8         0.0        0.0        186.0     434.5      5  
+0x483aeb08..     5      592.5         0.1        0.1        193.0    3750.0      5  
+0xe40824ea..     5      596.2         0.5        0.8        109.0     756.0      0  
+0x005d4b2c..     4      603.4         1.5        4.0         17.0       7.5      0  
+0x74ec2199..     3      794.0         1.0        1.0        146.0    2180.0      0  
+0xacd6ff0d..     3      569.8        31.4       39.3          1.0       2.0      0  
+0x3ce87e86..     3      413.8         0.0        0.0        251.0      78.0      0  
+0x499a1b7c..     3      198.7         0.1        0.1        137.0     231.0      3  
 
 === DETAY: RATING ARALIGINA GORE (dogrudan, tekli alimlar) ===
 (floor = yaklasik tahmin: +-90 dk satis fiyatlarinin alt %10'u; ETH=2500$. OpenSea komisyonu satici tarafinda %1, alicidan kesilmez)
 aralik     adet  fiyat(ETH) medyan  floor kati medyan/max  tip medyan/%90  gaz $ medyan  gaz % fiyat  toplam maliyet kati(floor+gaz)
-0-650       46    0.0194    1.11/1.94       0.9/16.8        0.56      1.08%    1.14
-650-700       11    0.0311    1.78/2.08       2.0/50.1        1.01      1.12%    1.89
-700-750        3    0.0350    2.00/2.06       6.0/52.0        3.08      3.52%    2.07
-750-770        1    0.0329    1.88/1.88      19.3/19.3        8.42     10.24%    2.07
-770-790        2    0.0533    3.04/3.66       1.3/2.0         0.70      0.50%    3.06
+0-650       33    0.0219    1.16/1.58       0.6/12.0        0.42      0.76%    1.19
+650-700        1    0.0350    1.85/1.85       0.4/0.4         0.28      0.32%    1.86
+700-750        4    0.0350    1.85/2.00       7.6/31.4        3.31      3.86%    1.92
+750-770        5    0.0370    1.96/2.16       6.8/55.0        2.71      2.93%    2.01
+770-790        1    0.0460    2.43/2.43       1.0/1.0         0.51      0.45%    2.44
+790-1000       2    0.0485    2.57/2.59       1.0/1.0         0.45      0.38%    2.58
 
 === FLOOR KATINA GORE TIP (dogrudan, tekli) ===
 floor kati   adet  medyan tip  %90 tip  medyan gaz $  medyan rating
-0-1.15       31        0.9     43.1        0.52       272
-1.15-1.4         8        0.8     50.1        0.57       449
-1.4-1.8        11        4.4     24.5        2.25       625
-1.8-2.5        12        1.5      6.0        0.78       678
-2.5-99          1        2.0      2.0        1.02       786
+0-1.15       18        1.3     50.0        0.68       395
+1.15-1.4        13        0.6      8.6        0.40       440
+1.4-1.8         6        4.4     31.4        1.95       595
+1.8-2.5         7        1.0      6.8        0.51       762
+2.5-99          2        1.0      1.0        0.45       796
 
 === ALICI BAZINDA ODEME (>=3 alim): ortalama floor kati, gaz $/NFT, toplam gaz $ ===
-0x77ed0a36..  160 alim  floor kati medyan 2.00  tip medyan 0.7  gaz$/NFT medyan 0.35  toplam gaz$ 2241
-0x22a676b5..   70 alim  floor kati medyan 1.82  tip medyan 0.0  gaz$/NFT medyan 0.15  toplam gaz$ 194
-0xb0e379de..   31 alim  floor kati medyan 0.99  tip medyan 0.6  gaz$/NFT medyan 0.32  toplam gaz$ 229
-0x483aeb08..   26 alim  floor kati medyan 1.99  tip medyan 0.1  gaz$/NFT medyan 0.19  toplam gaz$ 14
-0x005d4b2c..   10 alim  floor kati medyan 1.74  tip medyan 1.5  gaz$/NFT medyan 0.95  toplam gaz$ 14
-0x753cf572..   10 alim  floor kati medyan 1.01  tip medyan 0.0  gaz$/NFT medyan 0.18  toplam gaz$ 18
-0x064635e9..    7 alim  floor kati medyan 2.06  tip medyan 0.6  gaz$/NFT medyan 0.39  toplam gaz$ 5
-0xb937e9e0..    7 alim  floor kati medyan 1.07  tip medyan 0.7  gaz$/NFT medyan 0.41  toplam gaz$ 3
-0xb4026677..    5 alim  floor kati medyan 1.60  tip medyan 0.6  gaz$/NFT medyan 0.32  toplam gaz$ 3
-0x3ff1d944..    5 alim  floor kati medyan 1.11  tip medyan 0.0  gaz$/NFT medyan 0.12  toplam gaz$ 1
-0x658103b8..    4 alim  floor kati medyan 1.10  tip medyan 0.9  gaz$/NFT medyan 0.51  toplam gaz$ 2
-0x03a10b48..    3 alim  floor kati medyan 1.37  tip medyan 24.5  gaz$/NFT medyan 8.99  toplam gaz$ 38
-0xacd6ff0d..    3 alim  floor kati medyan 1.14  tip medyan 19.0  gaz$/NFT medyan 9.48  toplam gaz$ 49
-0x982a3e21..    3 alim  floor kati medyan 1.14  tip medyan 43.1  gaz$/NFT medyan 17.04  toplam gaz$ 54
-0xac0b17cb..    3 alim  floor kati medyan 1.14  tip medyan 13.8  gaz$/NFT medyan 5.18  toplam gaz$ 17
+0xb0e379de..   68 alim  floor kati medyan 1.05  tip medyan 0.6  gaz$/NFT medyan 0.25  toplam gaz$ 682
+0x46e0d636..   15 alim  floor kati medyan 1.06  tip medyan 0.1  gaz$/NFT medyan 0.16  toplam gaz$ 13
+0xac0b17cb..    9 alim  floor kati medyan 1.31  tip medyan 8.6  gaz$/NFT medyan 3.66  toplam gaz$ 41
+0x064635e9..    9 alim  floor kati medyan 1.27  tip medyan 0.6  gaz$/NFT medyan 0.31  toplam gaz$ 5
+0x753cf572..    5 alim  floor kati medyan 1.08  tip medyan 0.0  gaz$/NFT medyan 0.09  toplam gaz$ 2
+0x483aeb08..    5 alim  floor kati medyan 1.59  tip medyan 0.1  gaz$/NFT medyan 0.14  toplam gaz$ 4
+0xe40824ea..    5 alim  floor kati medyan 1.85  tip medyan 0.5  gaz$/NFT medyan 0.28  toplam gaz$ 1
+0x005d4b2c..    4 alim  floor kati medyan 1.56  tip medyan 1.5  gaz$/NFT medyan 0.84  toplam gaz$ 4
+0x74ec2199..    3 alim  floor kati medyan 2.54  tip medyan 1.0  gaz$/NFT medyan 0.46  toplam gaz$ 1
+0xacd6ff0d..    3 alim  floor kati medyan 1.11  tip medyan 31.4  gaz$/NFT medyan 14.91  toplam gaz$ 38
+0x3ce87e86..    3 alim  floor kati medyan 1.16  tip medyan 0.0  gaz$/NFT medyan 0.09  toplam gaz$ 0
+0x499a1b7c..    3 alim  floor kati medyan 1.01  tip medyan 0.1  gaz$/NFT medyan 0.13  toplam gaz$ 1
 
 === 750+ RATINGLI TUM ALIMLAR (zamana gore) ===
 saat(UTC)  token  rating  fiyat   floor_kati  gaz$   alici        tip   sira  listelemeden_sn
-15:48:47  #622     758.3  0.0410   2.34    3.25  0x22a676b5..    0.0  #234  -
-15:48:47  #66306   772.5  0.0419   2.39    3.25  0x22a676b5..    0.0  #234  -
-15:50:35  #104763  763.8  0.0420   2.40    2.99  0x22a676b5..    0.0  #340  -
-15:50:35  #3737    771.8  0.0420   2.40    2.99  0x22a676b5..    0.0  #340  -
-15:50:35  #57020   784.5  0.0430   2.46    2.99  0x22a676b5..    0.0  #340  7051
-15:58:23  #102627  769.8  0.0400   2.29    1.87  0x22a676b5..    0.0  #197  326
-15:58:23  #42249   760.4  0.0393   2.25    1.87  0x22a676b5..    0.0  #197  125
-15:58:23  #108400  779.5  0.0410   2.34    1.87  0x22a676b5..    0.0  #197  151
-15:58:23  #10919   764.7  0.0393   2.25    1.87  0x22a676b5..    0.0  #197  111
-16:11:35  #61609   757.8  0.0329   1.88    8.42  0x327c8035..   19.3  #11   9
-16:12:59  #71768   769.8  0.0400   2.29    0.42  0x483aeb08..    0.1  #126  112
-16:13:35  #74545   785.9  0.0640   3.66    1.02  0x8da288c9..    2.0  #86   -
-16:26:11  #3071    773.2  0.0430   2.46   10.98  0x77ed0a36..    0.8  #32   -
-16:26:11  #50744   793.8  0.0440   2.51   10.98  0x77ed0a36..    0.8  #32   5164
-16:34:11  #71550   775.4  0.0425   2.43    0.39  0xda8c51a9..    0.6  #87   1968
-16:34:47  #120425  794.7  0.0450   2.57   18.06  0x77ed0a36..    0.8  #238  -
-16:34:47  #19541   773.9  0.0440   2.51   18.06  0x77ed0a36..    0.8  #238  -
-16:34:47  #112010  765.8  0.0430   2.46   18.06  0x77ed0a36..    0.8  #238  -
-16:34:47  #40469   785.4  0.0440   2.51   18.06  0x77ed0a36..    0.8  #238  -
-16:34:47  #109679  752.2  0.0420   2.40   18.06  0x77ed0a36..    0.8  #238  -
-16:34:47  #94043   792.0  0.0450   2.57   18.06  0x77ed0a36..    0.8  #238  -
-16:34:47  #56639   781.3  0.0437   2.50   18.06  0x77ed0a36..    0.8  #238  -
-16:44:35  #10967   770.5  0.0440   2.51   13.59  0x77ed0a36..    0.6  #3    -
-16:44:35  #23717   756.6  0.0432   2.47   13.59  0x77ed0a36..    0.6  #3    -
-16:44:35  #56195   787.7  0.0450   2.57   13.59  0x77ed0a36..    0.6  #3    -
-16:50:35  #48136   781.2  0.0400   2.29    0.69  0x064635e9..    0.6  #69   -
-16:50:35  #113913  768.6  0.0400   2.29    0.69  0x064635e9..    0.6  #69   -
-16:54:47  #91546   782.8  0.0450   2.57   11.63  0x77ed0a36..    0.6  #92   -
-16:58:11  #2913    756.3  0.0400   2.29    0.48  0x483aeb08..    0.1  #169  -
-16:58:11  #19111   767.2  0.0417   2.38    0.48  0x483aeb08..    0.1  #169  172
+17:41:47  #22791   761.8  0.0409   2.16    0.43  0xe40824ea..    0.8  #109  1169
+18:15:23  #58328   789.1  0.0460   2.43    0.51  0x74ec2199..    1.0  #146  -
+18:16:23  #25943   796.6  0.0480   2.54    0.46  0x74ec2199..    1.0  #103  2180
+18:17:23  #93252   796.3  0.0490   2.59    0.45  0x74ec2199..    1.0  #167  -
+18:18:59  #10693   766.1  0.0209   1.11   23.26  0x00bb68e5..   55.0  #15   4
+18:18:59  #61614   760.6  0.0209   1.11   25.42  0x91198126..   50.0  #14   4
+18:28:59  #115037  766.8  0.0370   1.96    2.46  0xac0b17cb..    6.1  #5    10
+18:31:35  #108850  768.2  0.0370   1.96    2.71  0xe57aae24..    6.8  #17   12
 
 === SAAT SAAT: 750+ alimlarda medyan / en yuksek tip ===
-10-14 15:00  adet   9  medyan    0.0  en yuksek    0.0
-10-14 16:00  adet  21  medyan    0.8  en yuksek   19.3
+10-14 17:00  adet   1  medyan    0.8  en yuksek    0.8
+10-14 18:00  adet   7  medyan    6.1  en yuksek   55.0
 
 ======================================================================
-KARAR ANALIZI (ETH = 2447$; floor = listeleme fiyatlarinin alt %5'i, +-30 dk)
+KARAR ANALIZI (ETH = 2424$; floor = listeleme fiyatlarinin alt %5'i, +-30 dk)
 ======================================================================
 
 === A) FLOOR VE PIYASA SAAT SAAT ===
 saat(UTC)      floor(ETH)  floor($)  satis  750+satis  750+ medyan kat  797+ medyan kat  750+ medyan tip
-10-14 15:00    0.01740     42.6    127         9           2.36               -           0.0
-10-14 16:00    0.01888     46.2    268        21           2.29               -           0.8
-10-14 17:00    0.01926     47.1      8         0              -               -             -
-Floor aralik: en dusuk 0.01740 ETH (42.6$) - en yuksek 0.01926 ETH (47.1$) | basta 0.01740 -> sonda 0.01926 ETH
+10-14 17:00    0.01879     45.5    128         1           2.18               -           0.8
+10-14 18:00    0.02000     48.5     58         7           1.82               -           6.1
+Floor aralik: en dusuk 0.01879 ETH (45.5$) - en yuksek 0.02036 ETH (49.4$) | basta 0.01890 -> sonda 0.02036 ETH
 
 === B) CIKIS FIYATI: rating bandina gore satis fiyati / floor (dogrudan tekli alimlar) ===
 band      adet  %25      medyan   %75      en yuksek   medyan $   | 1.6x ustu islemler: adet  medyan kat
-750-793      3    1.89     2.26    3.68       3.68     106.5    |    3  2.26
+750-793      6    1.04     1.82    2.18       2.30      90.0    |    4  2.00
+793-797      2    2.40     2.42    2.45       2.45     119.7    |    2  2.42
 (1.6x ustu islemler = piyasanin gercekten odedigi 'cikis' fiyati; floor'a yakin olanlar sniper dolumlari)
 
 === C) KADEME x RATING BANDI: dolumlar (satislar) ===
 kademe       band      adet  medyan tip  %90 tip  en yuksek  medyan sira  <=20sn'de satilan  yuksek tipli(>=15) pay  medyan gaz$
-1.85-2x     750-793      1       19.3     19.3       19.3          11    1/1   (100%)       100%             8.42
-2-2.5x      750-793      1        0.6      0.6        0.6          87    0/1   (  0%)         0%             0.39
-2.5x+       750-793      1        2.0      2.0        2.0          86    0/0   (  0%)         0%             1.02
+0-1.2x      750-793      2       52.5     55.0       55.0          14    2/2   (100%)       100%             24.34
+1.6-1.85x   750-793      2        6.4      6.8        6.8          11    2/2   (100%)         0%             2.58
+2-2.5x      750-793      2        0.9      1.0        1.0         128    0/1   (  0%)         0%             0.47
+2-2.5x      793-797      2        1.0      1.0        1.0         135    0/1   (  0%)         0%             0.45
 
 === D) FIRSATLAR: yeni listelemeler (750+), kademe basina; satilma hizi ===
 Not: ayni NFT'nin birden cok listelemesi sayilir. dt = listelemeden satisa saniye.
 kademe       band      listeleme  saatte  <=20sn  <=2dk  <=30dk  satilmadi/iptal
-1.85-2x     750-793          1    0.7      1      1       1         0
-2-2.5x      750-793         13    8.7      0      2       6         6
-2.5x+       750-793         30   20.0      0      0       0        30
-2.5x+       793-797         11    7.3      0      0       0        11
-2.5x+       797+             3    2.0      0      0       0         3
+0-1.2x      750-793          2    1.3      2      2       2         0
+1.6-1.85x   750-793          2    1.3      2      2       2         0
+2-2.5x      750-793          3    2.0      0      0       1         2
+2.5x+       750-793         10    6.7      0      0       0        10
+2.5x+       793-797         11    7.3      0      0       0        10
+2.5x+       797+             2    1.3      0      0       0         2
 
 === E) MARJ SIMULASYONU (mevcut tip kademeleri; cikis = olculen 1.6x ustu islem medyani) ===
 
-[750-793] cikis tahmini: 2.26x floor (106.5$), ornek sayisi 3
+[750-793] cikis tahmini: 2.00x floor (98.7$), ornek sayisi 4
 kademe       tip  alis$(orta)  gaz$   toplam$  net kar$ (kazanirsa)  basabas cikis (x floor)  kaybederse$
-0-1.2x       52       49.5   24.2     73.6          31.8                1.58               5.3
-1.2-1.3x     46       58.9   21.4     80.3          25.2                1.72               4.7
-1.3-1.45x    32       64.8   14.9     79.7          25.8                1.71               3.3
-1.45-1.6x     8       71.9    3.7     75.6          29.9                1.62               0.8
+0-1.2x       52       51.8   23.9     75.8          22.0                1.55               5.3
+1.2-1.3x     46       61.7   21.2     82.9          14.8                1.70               4.7
+1.3-1.45x    32       67.9   14.7     82.6          15.1                1.69               3.3
+1.45-1.6x     8       75.3    3.7     79.0          18.8                1.62               0.8
 
-[793-797] cikis tahmini: -x floor (-$), ornek sayisi 0
+[793-797] cikis tahmini: -x floor (-$), ornek sayisi 2
 
 [797+] cikis tahmini: -x floor (-$), ornek sayisi 0
 
 === F) BIZIM ALIMLARIMIZ (bu pencerede) ===
-16:57:59 #59473 rating 721.9  0.0200 ETH  floor kati 1.04  tip 52.0  sira #8  gaz 25.95$
+Bu pencerede bizim cuzdandan alim gorunmedi.
 
 === G) YENIDEN SATISLAR (flip): ayni NFT pencerede once alinip sonra satilmis ===
-Bulunan flip: 16 (pencere ne kadar uzunsa o kadar cok yakalanir; 12 saatlik pencere onerilir)
+Bulunan flip: 4 (pencere ne kadar uzunsa o kadar cok yakalanir; 12 saatlik pencere onerilir)
 band      adet  alis kati(medyan)  satis kati(medyan)  net $ medyan  net $ toplam  bekleme dk medyan  kar eden %
-<750        16        1.03            1.52         2.8         146             8      94%
+<750         4        1.06            1.34         2.5           9             7     100%
 
 alis katina gore (floor kati):
 alis kati    adet  satis kati medyan  net $ medyan  net $ toplam  kar eden %
-0-1.2x        12          1.15         2.1          92      92%
-1.2-1.3x       1          1.77        23.7          24     100%
-1.3-1.45x      2          1.86         9.4          19     100%
-1.45-1.6x      1          1.89        11.4          11     100%
+0-1.2x         3          1.19         1.8           6     100%
+1.45-1.6x      1          2.01         3.2           3     100%
 
 flip yapan cuzdanlar (>=2 flip):
-0x3ff1d944..    2 flip  net $ toplam      49  medyan alis kati 1.20  medyan tip 0.0  medyan bekleme dk 7
-0x982a3e21..    2 flip  net $ toplam      28  medyan alis kati 1.26  medyan tip 37.0  medyan bekleme dk 20
-0xacd6ff0d..    3 flip  net $ toplam       6  medyan alis kati 1.04  medyan tip 19.0  medyan bekleme dk 3
-0x74159fc2..    2 flip  net $ toplam       3  medyan alis kati 1.02  medyan tip 0.2  medyan bekleme dk 14
+0xacd6ff0d..    3 flip  net $ toplam       9  medyan alis kati 1.12  medyan tip 31.4  medyan bekleme dk 13
 
 en karli 10 flip:
-#79550  rating  637.3  alis 0.0180 (1.03x)  satis 0.0330 (1.85x)  net   33.2$  bekleme 15 dk  0xfd5e3d41..
-#23605  rating  388.3  alis 0.0222 (1.15x)  satis 0.0330 (1.71x)  net   25.5$  bekleme 7 dk  0x3ff1d944..
-#56697  rating  425.0  alis 0.0239 (1.24x)  satis 0.0340 (1.77x)  net   23.7$  bekleme 7 dk  0x3ff1d944..
-#66252  rating  643.8  alis 0.0240 (1.38x)  satis 0.0350 (2.01x)  net   17.1$  bekleme 11 dk  0x03a10b48..
-#78923  rating  593.7  alis 0.0180 (1.03x)  satis 0.0322 (1.85x)  net   16.9$  bekleme 5 dk  0x982a3e21..
-#62332  rating  668.6  alis 0.0259 (1.49x)  satis 0.0364 (1.89x)  net   11.4$  bekleme 35 dk  0x982a3e21..
-#121225 rating  447.4  alis 0.0184 (1.06x)  satis 0.0231 (1.33x)  net    4.4$  bekleme 4 dk  0xe57aae24..
-#29915  rating  183.9  alis 0.0174 (1.00x)  satis 0.0191 (0.99x)  net    3.2$  bekleme 80 dk  0xc521c4f8..
-#60400  rating  659.5  alis 0.0200 (1.04x)  satis 0.0343 (1.78x)  net    2.4$  bekleme 5 dk  0xacd6ff0d..
-#86335  rating  117.5  alis 0.0178 (1.02x)  satis 0.0188 (1.08x)  net    1.8$  bekleme 9 dk  0x73c255de..
+#97012  rating  564.7  alis 0.0210 (1.12x)  satis 0.0300 (1.50x)  net    3.7$  bekleme 43 dk  0xacd6ff0d..
+#109658 rating  713.9  alis 0.0300 (1.60x)  satis 0.0378 (2.01x)  net    3.2$  bekleme 13 dk  0xacd6ff0d..
+#44384  rating  430.7  alis 0.0190 (1.01x)  satis 0.0224 (1.19x)  net    1.8$  bekleme 1 dk  0xacd6ff0d..
+#44217  rating  347.3  alis 0.0190 (1.01x)  satis 0.0197 (1.05x)  net    0.7$  bekleme 0 dk  0xc00ae7da..
 
 === H) FIRSAT HARITASI: floor ustu <=1.6x listelemeler (tum ratingler) ===
-(teshis: {'toplam': 1330, 'pencere': 511, 'eth': 0, 'rating': 511, 'floor': 511}; ornek listeleme anahtarlari: ['asset', 'chain', 'criteria', 'event_timestamp', 'event_type', 'expiration_date', 'is_private_listing', 'maker', 'order_hash', 'order_type', 'payment', 'protocol_address', 'quantity', 'start_date', 'taker'])
+(teshis: {'toplam': 975, 'pencere': 321, 'eth': 0, 'rating': 321, 'floor': 321}; ornek listeleme anahtarlari: ['asset', 'chain', 'criteria', 'event_timestamp', 'event_type', 'expiration_date', 'is_private_listing', 'maker', 'order_hash', 'order_type', 'payment', 'protocol_address', 'quantity', 'start_date', 'taker'])
 band         listeleme  <=1.25x  1.25-1.6x   satilan(%)  <=20sn satilan   medyan satis suresi sn
-0-650           250     184        66         34%          15           297
-650-700             4       2         2        100%           4             6
-700-750             1       1         0        100%           1            10
+0-650           210     168        42         32%          14           163
+700-750             1       0         1        100%           1             1
+750-793             2       2         0        100%           2             4
